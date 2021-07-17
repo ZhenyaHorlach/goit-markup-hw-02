@@ -18,6 +18,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.logo {
+  text-decoration: none;
+}
+
 .logo-web {
   color: var(--accent-text-color);
   font-family: var(--logo-font);
@@ -231,4 +235,11 @@ body {
 
 .portfolio-link {
   text-decoration: none;
+}
+
+.address:hover,
+.address-link:hover,
+.address-link:focus,
+.address:focus {
+  color: var(--accent-text-color);
 }
